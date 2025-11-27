@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estructuras Metálicas V&V: Diseño, fabricación, montaje y mantenimiento de estructuras metálicas, techos y barandas en Lima.">
+    <title>ESTRUCTURAS METALICAS V&V</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader"></div>
+    </div>
+
+    <div id="scrollIndicator"></div>
+    <div id="cursorTrail"></div>
+
+    <a href="https://wa.me/51938866667?text=Hola%20V%26V,%20me%20gustaría%20solicitar%20una%20cotización" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <span class="whatsapp-float-text">Solicitar Cotización</span>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <div class="particles" id="particles"></div>
+
+    <header id="header">
+        <nav>
+            <div class="logo">V&V</div>
+            <div class="hamburger" id="hamburger-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="geometric-shapes">
+            <div class="shape triangle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+            <div class="shape square" style="top: 20%; right: 15%; animation-delay: 2s;"></div>
+            <div class="shape circle" style="top: 60%; left: 5%; animation-delay: 4s;"></div>
+            <div class="shape triangle" style="bottom: 20%; right: 10%; animation-delay: 6s;"></div>
+            <div class="shape square" style="bottom: 10%; left: 20%; animation-delay: 8s;"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Estructuras Metálicas</h1>
+            <p>Especialista en diseño, fabricación, desmontajes e instalación de estructuras metálicas. Más de 4 años de experiencia respaldando tus proyectos.</p>
+            <a href="https://wa.me/51938866667?text=Hola%20V%26V,%20me%20gustaría%20solicitar%20una%20cotización" target="_blank" class="cta-button">Solicitar Cotización</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <h2 class="section-title">Servicios Especializados</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-image">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="60" width="80" height="4" fill="white" opacity="0.9"/>
+                        <rect x="10" y="30" width="80" height="4" fill="white" opacity="0.9"/>
+                        <rect x="15" y="34" width="3" height="26" fill="white" opacity="0.8"/>
+                        <rect x="30" y="34" width="3" height="26" fill="white" opacity="0.8"/>
+                        <rect x="45" y="34" width="3" height="26" fill="white" opacity="0.8"/>
+                        <rect x="60" y="34" width="3" height="26" fill="white" opacity="0.8"/>
+                        <rect x="75" y="34" width="3" height="26" fill="white" opacity="0.8"/>
+                        <rect x="35" y="65" width="30" height="25" fill="white" opacity="0.7" stroke="white" stroke-width="1"/>
+                        <circle cx="60" cy="77" r="2" fill="white"/>
+                        <line x1="50" y1="65" x2="50" y2="90" stroke="white" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h3>Fabricación de Barandas y Puertas</h3>
+                    <p>Diseño y construcción de barandas para universidades, hospitales, colegios y más. Soluciones seguras y estéticas para cualquier tipo de edificación.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 20,50 L 50,30 L 80,50" stroke="white" stroke-width="3" fill="none" opacity="0.9"/>
+                        <line x1="30" y="50" x2="30" y2="75" stroke="white" stroke-width="2.5" opacity="0.8"/>
+                        <line x1="70" y="50" x2="70" y2="75" stroke="white" stroke-width="2.5" opacity="0.8"/>
+                        <rect x="25" y="48" width="50" height="3" fill="white" opacity="0.7"/>
+                        <path d="M 45,35 L 40,40 L 45,45" stroke="#00b4d8" stroke-width="2" fill="none"/>
+                        <path d="M 55,35 L 60,40 L 55,45" stroke="#00b4d8" stroke-width="2" fill="none"/>
+                        <circle cx="50" cy="65" r="8" stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+                        <line x1="50" y1="57" x2="50" y2="73" stroke="white" stroke-width="2" opacity="0.8"/>
+                        <line x1="42" y1="65" x2="58" y2="65" stroke="white" stroke-width="2" opacity="0.8"/>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h3>Desmontajes de Estructuras</h3>
+                    <p>Servicio especializado en desmontaje de techos y estructuras metálicas con técnicas seguras y eficientes, garantizando la integridad de los materiales.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="35" y="25" width="8" height="30" rx="4" fill="white" opacity="0.9"/>
+                        <rect x="37" y="20" width="4" height="8" fill="white" opacity="0.8"/>
+                        <line x1="39" y1="55" x2="39" y2="75" stroke="white" stroke-width="2" opacity="0.7"/>
+                        <path d="M 55,30 L 65,30 L 67,45 L 53,45 Z" fill="white" opacity="0.9"/>
+                        <rect x="57" y="45" width="6" height="25" fill="white" opacity="0.8"/>
+                        <circle cx="25" cy="60" r="3" fill="#00b4d8" opacity="0.8"/>
+                        <circle cx="35" cy="65" r="2.5" fill="#00b4d8" opacity="0.7"/>
+                        <circle cx="70" cy="62" r="3" fill="#00b4d8" opacity="0.8"/>
+                        <circle cx="78" cy="68" r="2" fill="#00b4d8" opacity="0.7"/>
+                        <rect x="20" y="75" width="60" height="8" fill="white" opacity="0.5"/>
+                        <rect x="20" y="75" width="35" height="8" fill="#00b4d8" opacity="0.7"/>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h3>Servicios de Pintura</h3>
+                    <p>Contamos con pintores especializados en estructuras metálicas, aplicando tratamientos anticorrosivos y acabados de alta calidad para mayor durabilidad.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="45" r="15" stroke="white" stroke-width="3" fill="none" opacity="0.9"/>
+                        <circle cx="40" cy="45" r="8" fill="white" opacity="0.7"/>
+                        <line x1="40" y1="30" x2="40" y2="35" stroke="white" stroke-width="3"/>
+                        <line x1="40" y1="55" x2="40" y2="60" stroke="white" stroke-width="3"/>
+                        <line x1="25" y1="45" x2="30" y2="45" stroke="white" stroke-width="3"/>
+                        <line x1="50" y1="45" x2="55" y2="45" stroke="white" stroke-width="3"/>
+                        <circle cx="65" cy="55" r="12" stroke="white" stroke-width="2.5" fill="none" opacity="0.8"/>
+                        <circle cx="65" cy="55" r="6" fill="white" opacity="0.6"/>
+                        <line x1="65" y1="43" x2="65" y2="47" stroke="white" stroke-width="2.5"/>
+                        <line x1="65" y1="63" x2="65" y2="67" stroke="white" stroke-width="2.5"/>
+                        <line x1="53" y1="55" x2="57" y2="55" stroke="white" stroke-width="2.5"/>
+                        <line x1="73" y1="55" x2="77" y2="55" stroke="white" stroke-width="2.5"/>
+                        <path d="M 25,65 L 30,70 L 45,55 L 40,50 Z" fill="#00b4d8" opacity="0.8"/>
+                        <rect x="22" y="70" width="5" height="12" rx="2" fill="white" opacity="0.7"/>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h3>Mantenimiento Especializado</h3>
+                    <p>Servicios de mantenimiento preventivo y correctivo para garantizar la durabilidad y seguridad de tus estructuras metálicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <h2 class="section-title">Nuestra Excelencia</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Innovación y Experiencia</h3>
+                <p>Somos expertos en el sector de estructuras metálicas con más de 4 años de experiencia transformando ideas en realidades sólidas. Nos especializamos en brindar soluciones integrales desde el diseño conceptual hasta la instalación final.</p>
+                <p>Contamos con soldadores homologados especializados en estructuras metálicas, garantizando trabajos de la más alta calidad y seguridad. También contamos con pintores especializados que aplican los mejores tratamientos y acabados para proteger y embellecer cada proyecto.</p>
+                <p>Colaboramos con clientes de diversos sectores: educativo, salud, industrial, comercial y residencial, adaptándonos a las necesidades específicas y desafíos únicos de cada proyecto.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="4">0</span>
+                    <span>Años de Experiencia</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span>% Satisfacción</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2 class="section-title">Información de Contacto</h2>
+        <div class="contact-info">
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div class="contact-text">
+                        <strong>Ubicación:</strong>
+                        <p>Mz D Lote 2, A.H. Los Olivos de Laderas de Chillón</p>
+                        <p>Puente Piedra, Lima - Perú</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div class="contact-text">
+                        <strong>Teléfono:</strong>
+                        <p>+51 938 866 667</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div class="contact-text">
+                        <strong>Correo Electrónico:</strong>
+                        <p>Vicentevillanueva681@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🕒</span>
+                    <div class="contact-text">
+                        <strong>Horarios de Atención:</strong>
+                        <p>Lun - Vie: 8:00 AM - 6:00 PM</p>
+                        <p>Sáb: 8:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - 2026 ESTRUCTURAS METALICAS V&V. Todos los derechos reservados.</p>
+        <p>Desarrollado como proyecto educativo</p>
+        <p>Diseño • Fabricación • Desmontaje • Instalación</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
